@@ -1,0 +1,10 @@
+apiVersion: k8s.ovn.org/v1
+kind: EgressIP
+metadata:
+  name: egressip-test
+spec:
+  egressIPs:
+  - 10.0.2.50
+  namespaceSelector:
+    matchLabels:
+      kubernetes.io/metadata.name: egress-test
