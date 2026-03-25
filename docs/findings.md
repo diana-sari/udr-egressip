@@ -1,5 +1,7 @@
 # Findings
 
+> Note: This file summarizes the focused private ARO UDR + EgressIP failover lab. For the broader walkthrough that also covers an additional private ingress controller, Azure Disk validation, Blob CSI fixes on ARO/RHCOS, static Azure Blob validation, and namespace-scoped EgressIP, see [`docs/aro-private-ingress-storage-egressip-walkthrough.md`](./aro-private-ingress-storage-egressip-walkthrough.md)
+
 ## Environment
 
 - Platform: ARO 4.20.15
