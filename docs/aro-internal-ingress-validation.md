@@ -11,7 +11,7 @@ For this lab, the dedicated IngressController is `rhize`, configured with:
 - domain `rhize.apps.dianasari-udr.westus.aroapp.io`
 - route selector `ingress-scope=rhize`
 
-The router service created for this ingresscontroller is `router-rhize`, with Azure internal load balancer IP `10.0.2.4`. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+The router service created for this ingresscontroller is `router-rhize`, with Azure internal load balancer IP `10.0.2.4`.
 
 ### Confirm the dedicated IngressController
 
